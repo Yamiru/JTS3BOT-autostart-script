@@ -1,0 +1,38 @@
+#! /bin/sh
+ ### BEGIN INIT INFO
+# Provides:       ts3bot
+# Required-Start: $local_fs $remote_fs screen-cleanup
+# Required-Stop:  $local_fs $remote_fs
+# Should-Start:   $network
+# Should-Stop:    $network
+# Default-Start:  2 3 4 5
+# Default-Stop:   0 1 6
+# Short-Description: ts3bot shell
+# Description:       JTS3ServerMod init.d script to automatic start ts3bot on boot
+#                    as diferent user.
+### END INIT INFO
+DIR=/opt/ts3bot
+JARFILE=JTS3ServerMod.jar
+MX=30M
+NAME=ts3bot
+USER=teamspeak3
+SCREENNAME=ts3bot
+
+PATH=/sbin:/usr/sbin:/bin:/usr/bin
+
+case "$1" in
+  start)
+    su - $USER && cd $DIR && screen -dmS $SCREENNAME  /usr/bin/java -mx$MX -jar $JARFILE nogui
+    echo "Starting $NAME Server"
+    ;;
+  stop)
+    screen -X -S $SCREENNAME kill
+    echo "Shuting down $NAME server"
+    ;;
+  *)
+    echo "Usage: /etc/init.d/$NAME {start|stop}"
+    exit 1
+    ;;
+esac
+
+exit 0
