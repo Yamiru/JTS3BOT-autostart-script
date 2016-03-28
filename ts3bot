@@ -15,7 +15,7 @@ DIR=/opt/ts3bot
 JARFILE=JTS3ServerMod.jar
 MX=30M
 NAME=ts3bot
-USER=teamspeak3
+USER=teamspeak3bot
 SCREENNAME=ts3bot
 
 PATH=/sbin:/usr/sbin:/bin:/usr/bin
