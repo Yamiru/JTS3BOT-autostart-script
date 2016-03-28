@@ -15,7 +15,7 @@ JTS3ServerMod - TS3 Server Bot init.d script to automatic start JTS3BOT on boot 
 - dir location of mc /opt/ts3bot/
 - installed java version 8 (```sudo apt-get install oracle-java8-installer```)
 - user ts3bot  (```sudo adduser --disabled-login ts3bot```) 
-- permission for minecraft user (```sudo chown ts3bot:ts3bot -R /opt/ts3bot```)
+- permission for ts3bot user (```sudo chown ts3bot:ts3bot -R /opt/ts3bot```)
 
 
 ##How to build
