@@ -13,7 +13,7 @@ JTS3ServerMod - TS3 Server Bot init.d script to automatic start JTS3BOT on boot 
 - screen (```sudo apt-get install screen```)
 - downloaded JTS3ServerMod - TS3 Server Bot init.d https://www.stefan1200.de/forum/index.php?topic=2.0
 - dir location of mc /opt/ts3bot/
-- installed java version 8 (```sudo apt-get install oracle-java8-installer```)
+- installed latest java (```sudo apt-get install default-jre```)
 - user teamspeak3bot  (```sudo adduser --disabled-login teamspeak3bot```) 
 - permission for teamspeak3bot user (```sudo chown teamspeak3bot:teamspeak3bot -R /opt/ts3bot```)
 
