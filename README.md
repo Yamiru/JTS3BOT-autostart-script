@@ -3,9 +3,9 @@ JTS3ServerMod - TS3 Server Bot init.d script to automatic start JTS3BOT on boot 
 
 
 ![Build Status](https://img.shields.io/badge/Build Status-passed-green.svg)
-![JTS3BOT](https://img.shields.io/badge/tested%20version%20JTS3BOT-6.1.2-red.svg)
-![java](https://img.shields.io/badge/java version-jdk%201.8.0__03-orange.svg)
-![os](https://img.shields.io/badge/tested OS-Ubuntu server 16.04LTS x64-blue.svg)
+![JTS3BOT](https://img.shields.io/badge/tested%20version%20JTS3BOT-6.3.0-red.svg)
+![java](https://img.shields.io/badge/java version-jdk%201.8.0__102-orange.svg)
+![os](https://img.shields.io/badge/tested OS-Ubuntu server 16.10 x64-blue.svg)
 ##Requirements
 - debian based OS
 - sudoers   (```aptitude install sudo```)
