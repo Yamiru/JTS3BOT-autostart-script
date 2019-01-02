@@ -2,10 +2,8 @@
 JTS3ServerMod - TS3 Server Bot init.d script to automatic start JTS3BOT on boot as diferent user.
 
 
-![Build Status](https://img.shields.io/badge/Build Status-passed-green.svg)
-![JTS3BOT](https://img.shields.io/badge/tested%20version%20JTS3BOT-6.3.0-red.svg)
-![java](https://img.shields.io/badge/java version-jdk%201.8.0__102-orange.svg)
-![os](https://img.shields.io/badge/tested OS-Ubuntu server 16.10 x64-blue.svg)
+<img src="https://img.shields.io/badge/Build%20Status-passed-green.svg" alt="status-passed"> <img src="https://img.shields.io/badge/tested%20version%20JTS3BOT%20-6.5.3-red.svg" alt="JTS3SERVERMOD - TS3 SERVER BOT"> <img src="https://img.shields.io/badge/java-jdk1.8.0__181-orange.svg" alt="OpenJDK Runtime Environment"> <img src="https://img.shields.io/badge/tested%20OS-Debian%20server%209.6%20x64-blue.svg" alt="debianos">
+
 ##Requirements
 - debian based OS
 - sudoers   (```aptitude install sudo```)
