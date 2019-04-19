@@ -59,7 +59,7 @@ start ts3bot  :  ```     service ts3bot start    ```
 
 
 Chceck java version ```     java -version    ```
-If you change /etc/init.d/ts3bot file --->  ```  sudo ts3bot ts3bot defaults ```    &   ```     systemctl daemon-reload    ```  
+If you change /etc/init.d/ts3bot file --->  ```  sudo update-rc.d ts3bot defaults ```    &   ```    systemctl daemon-reload     ```  
 If not work starting try to stop ```     service ts3bot stop    ``` 
 
 
